@@ -11,7 +11,7 @@ source:
   sha256: cc4ec3ce3027cfcca0a68e1f73b4f48721bda076a4a454e1d0e713c4f17e4977
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - lbinstall=lbinstall.LbInstall:LbInstall
@@ -23,12 +23,13 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.5
     - setuptools_scm
     - six
   run:
-    - backports.lzma
-    - python
+    # Python 2 only
+    # - backports.lzma
+    - python >=3.5
     - six
     - sqlalchemy
 
