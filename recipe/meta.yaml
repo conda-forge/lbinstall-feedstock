@@ -1,5 +1,5 @@
 {% set name = "lbinstall" %}
-{% set version = "2.0.11" %}
+{% set version = "2.0.14" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/lbinstall-{{ version }}.tar.gz
-  sha256: c7b25166ad2070bd03a1965b06daab1f0e2e7732fecf87452fcafabec88731cb
+  sha256: 57db55e44fcc6f1de58c6319ccc1c1ec1713a0e6989d66dafee761cdbfc91630
 
 build:
   number: 0
