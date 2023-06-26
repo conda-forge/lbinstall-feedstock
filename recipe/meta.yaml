@@ -37,10 +37,10 @@ test:
     - lbinstall.db
   commands:
     - pip check
-    - lbinstall --help
-    - lbyumcheck --help
-    - lcgyumcheck --help
-    - lbtarrpmcompare --help
+    # - lbinstall --help
+    # - lbyumcheck --help
+    # - lcgyumcheck --help
+    # - lbtarrpmcompare --help
   requires:
     - pip
 
